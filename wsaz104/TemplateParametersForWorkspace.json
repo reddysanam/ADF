@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workspaceName": {
+			"value": "wsaz104"
+		},
+		"az104adls_servicePrincipalCredential": {
+			"value": ""
+		},
+		"wsaz104-WorkspaceDefaultSqlServer_connectionString": {
+			"value": ""
+		},
+		"az104adls_properties_typeProperties_url": {
+			"value": "https://cs710032001c8cc8062.dfs.core.windows.net/"
+		},
+		"az104adls_properties_typeProperties_tenant": {
+			"value": "b5956ce1-6e21-4d41-8742-6cde83523402"
+		},
+		"az104adls_properties_typeProperties_servicePrincipalId": {
+			"value": "ed9d9f04-4eec-4889-8973-e66c943bb2d0"
+		},
+		"bing-covid-19-data_sasUri": {
+			"value": ""
+		},
+		"wsaz104-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://wsaz104adls.dfs.core.windows.net"
+		}
+	}
+}
