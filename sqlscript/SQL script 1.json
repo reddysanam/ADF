@@ -5,7 +5,7 @@
 			"name": "Demo"
 		},
 		"content": {
-			"query": "DROP database demo;",
+			"query": "CREATE database demo;",
 			"metadata": {
 				"language": "sql"
 			},
