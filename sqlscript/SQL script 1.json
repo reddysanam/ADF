@@ -1,8 +1,11 @@
 {
 	"name": "SQL script 1",
 	"properties": {
+		"folder": {
+			"name": "Demo"
+		},
 		"content": {
-			"query": "",
+			"query": "DROP database demo;",
 			"metadata": {
 				"language": "sql"
 			},
