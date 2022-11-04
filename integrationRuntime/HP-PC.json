@@ -1,0 +1,6 @@
+{
+	"name": "HP-PC",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
