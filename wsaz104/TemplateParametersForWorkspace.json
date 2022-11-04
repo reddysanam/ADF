@@ -8,6 +8,9 @@
 		"az104adls_servicePrincipalCredential": {
 			"value": ""
 		},
+		"synapseADLS_accountKey": {
+			"value": ""
+		},
 		"wsaz104-WorkspaceDefaultSqlServer_connectionString": {
 			"value": ""
 		},
@@ -22,6 +25,9 @@
 		},
 		"bing-covid-19-data_sasUri": {
 			"value": ""
+		},
+		"synapseADLS_properties_typeProperties_url": {
+			"value": "https://sasynapseaz104.dfs.core.windows.net/"
 		},
 		"wsaz104-WorkspaceDefaultStorage_properties_typeProperties_url": {
 			"value": "https://wsaz104adls.dfs.core.windows.net"
