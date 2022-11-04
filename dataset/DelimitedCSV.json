@@ -5,6 +5,12 @@
 			"referenceName": "synapseADLS",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"File_Name": {
+				"type": "string",
+				"defaultValue": "test.txt"
+			}
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
