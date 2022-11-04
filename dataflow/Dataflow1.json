@@ -28,7 +28,7 @@
 			],
 			"scriptLines": [
 				"parameters{",
-				"     parameter1 as string (nextSequence())",
+				"     parameter1 as integer (0)",
 				"}",
 				"source(allowSchemaDrift: true,",
 				"     validateSchema: false,",
