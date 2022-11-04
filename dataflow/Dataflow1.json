@@ -27,13 +27,16 @@
 				}
 			],
 			"scriptLines": [
+				"parameters{",
+				"     parameter1 as string (nextSequence())",
+				"}",
 				"source(allowSchemaDrift: true,",
 				"     validateSchema: false,",
 				"     inferDriftedColumnTypes: true,",
 				"     ignoreNoFilesFound: false) ~> source1",
 				"source1 select(mapColumn(",
-				"          each(match(type == 'string'),",
-				"               'Col' = $$)",
+				"          each(match(type=='string'),",
+				"               'Col'+ $parameter1 = $$)",
 				"     ),",
 				"     skipDuplicateMapInputs: true,",
 				"     skipDuplicateMapOutputs: false) ~> select1",
